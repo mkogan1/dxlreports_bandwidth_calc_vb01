@@ -14,6 +14,9 @@ export default function Home() {
         <DataSizeConverter />
         <BandwidthConverter />
       </div>
+      <div className="absolute bottom-4 right-6 text-xs text-gray-400 select-none pointer-events-none">
+        2025 Mark K.
+      </div>
     </main>
   );
 }
